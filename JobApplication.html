@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Job Application</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="Enter your email"><br><br>
+
+        <label for="tel">Phone:</label>
+        <input type="tel" id="tel" name="tel" placeholder="Enter your number">
+        <br><br>
+
+        <label for="Resume">Resume:</label>
+        <input type="file" name="Resume" id="Resume" accept=".pdf,.doc.docx">
+        <br><br>
+
+        <label for="Experience">Experience(year):</label>
+        <input type="number" name="Experience" id="Experience" min="0" max="50">
+
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" id="skills" name="skills"><br>
+            <label for="skills">HTML</label><br>
+            <input type="checkbox" id="skills" name="skills"><br>
+            <label for="skills">CSS</label><br>
+
+            <input type="checkbox" id="skills" name="skills"><br>
+            <label for="skills">Javascript</label>
+        </fieldset>
+
+        <label for="Education">Highest Education:</label><br><br>
+        <select name="Education" id="Education">
+            <option value="">B.tech</option>
+            <option value="">M.tech</option>
+            <option value="">Bio.tech</option>
+            <option value="">MBBS</option>
+            <option value="">B.com</option>
+        </select>
+
+        <fieldset>
+            <legend>Availability</legend>
+
+            <label for="yes1">Full-Time</label>
+            <input type="radio" name="radio" id="yes1"><br><br>
+            <label for="yes2">Part-Time</label>
+            <input type="radio" name="radio" id="yes2"><br><br>
+        </fieldset>
+
+        <label for="Additional comment">comments:</label><br/>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+        <input type="submit" name="" id="" value="submit Application">
+
+
+
+
+
+        
+
+
+
+    </form>
+
+</body>
+</html>
